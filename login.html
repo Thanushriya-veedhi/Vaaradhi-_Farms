@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Vaaradhi Farms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background:linear-gradient(45deg, #1a5733 , #ccc , #f1b600);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            border: 70px ;
+        }
+        .login{
+            border-radius: 15px;
+            background-color: white;
+            padding: 50px;
+            width: 400px;
+        }
+        .logo img {
+            width: 120px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 22px;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #666;
+        }
+        .input-box {
+            width: 100%;
+            margin: 15px 0;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            background-color: #206b3d;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #1a5733;
+        }
+        .privacy {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login">
+        <div class="logo">
+            <img src="https://vaaradhifarms.com/cdn/shop/files/Asset_1_2x_399eef15-89ca-42cd-ac92-8f75b5e60552.png?v=1685440038&width=300" alt="Vaaradhi Farms Logo">
+        </div>
+        <h3>Welcome to Vaaradhi Farms</h3>
+        <h2>Log in</h2>
+        <p>Enter your email and we'll send you a login code</p>
+        <div class="input-box">
+            <input type="email" placeholder="Email" required>
+        </div>
+        <button class="btn">Continue</button>
+        <p class="privacy">Privacy</p>
+        </div>
+    </div>
+</body>
+</html>
