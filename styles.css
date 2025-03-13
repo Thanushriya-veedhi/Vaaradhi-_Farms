@@ -422,7 +422,7 @@
         }
 
         .product {
-            background: #fff;
+            background: transparent;
             padding: 15px;
             border-radius: 10px;
             text-align: center;
